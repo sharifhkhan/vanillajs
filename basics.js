@@ -27,10 +27,28 @@ console.log(c)
 // Expected value was 6.7
 
 // These values are falsy, all other values are truthy 
-if (false) console.log('say falsy one more time');
+// None of the if statements will result in a console log
+if (false) console.log('say falsy one more time')
 if (0) console.log('say falsy one more time')
 if ('') console.log('say falsy one more time')
 if ("") console.log('say falsy one more time')
 if (null) console.log('say falsy one more time')
 if (undefined) console.log('say falsy one more time')
 if (NaN) console.log('say falsy one more time')
+
+let theValueIsUndefined
+console.log(theValueIsUndefined)
+
+let theValueIsNull = null
+console.log(theValueIsNull)
+
+// empty array
+let anArray = []
+console.log(anArray)
+
+// initilized array
+let initArray = [0,1,2]
+console.log(initArray)
+
+// length
+console.log(initArray.length)
