@@ -1,0 +1,22 @@
+{
+  "name": "vanillajs",
+  "version": "1.0.0",
+  "description": "javascript basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharifhkhan/vanillajs.git"
+  },
+  "author": "Sharif H. Khan <github@sharifhkhan.com> (https://www.sharifhkhan.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharifhkhan/vanillajs/issues"
+  },
+  "homepage": "https://github.com/sharifhkhan/vanillajs#readme",
+  "dependencies": {
+    "eslint": "^5.9.0"
+  }
+}
