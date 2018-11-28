@@ -1,14 +1,11 @@
-let start = document.getElementById("start");
+let start = document.getElementById('start');
 
-start.addEventListener("click", function () {
-    
-})
+start.addEventListener('click', function () {
+    let scr = document.getElementById('game-update');
+    let dealerCards = getStartingCards();
+    dealerCards.forEach(function (c) {
+        scr.innerHTML += '<br>' + c.value + ' of ' + c.suit;
+    });
 
-start.onclick = startGame;
 
-
-
-function startGame(event) {
-    event.target.innerHTML = "Hello World";
-    
-}
+});
