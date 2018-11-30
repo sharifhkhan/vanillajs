@@ -4,11 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <title>Jewels and Stones</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
 </head>
 
 <body>
+    <p>
+        Lessons Learned:
+        <ul>
+            <li>Checking with an inner loop is slower than using <b>includes()</b> function to test membership.</li>
+            <li><b>for</b> (each <b>of</b> many) is cleaner syntax than traditional loop. </li>
+        </ul>
+    </p>
     Jewels: <input type="text" id="jewels" value="aA"><br />
     Stones: <input type="text" id="stones" value="aAAbbbb"><br />
     <button id="count">Count</button>

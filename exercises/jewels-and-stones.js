@@ -8,7 +8,7 @@
  * @param {string} S
  * @return {number}
  */
-var numJewelsInStones = function (J, S) {
+const numJewelsInStones = function (J, S) {
     let jewels = 0;
 
     // double-loop
@@ -19,20 +19,19 @@ var numJewelsInStones = function (J, S) {
             }
         }
     }
-
     return jewels;
 };
+
 
 // using javascript includes
 var numJewelsOptimzed = function (J, S) {
     let jewels = 0;
-   
+
     for (const s of S) { // this can be a traditional for loop with no additional impact
         if (J.includes(s)) {
-            jewels += 1;
+            jewels++;
         }
     }
-
     return jewels;
 };
 

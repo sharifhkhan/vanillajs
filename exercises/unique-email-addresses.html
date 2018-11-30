@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Unique Email Addresses</title>
+
+</head>
+
+<body>
+    <p>
+        Lessons Learned:
+        <ul>
+            <li>Using a Set() to uniquely add() is slower than an array push() with includes() check.</li>
+            <li>Using indexOf() and substring() is faster than split()</li>
+            <li>Split() then Join() to replaceAll is slower than regular expression. </li>
+        </ul>
+    </p>
+
+    Emails: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]<br />
+    <button id="count">Count</button>
+    <p id="result"></p>
+    <script src="unique-email-addresses.js"></script>
+</body>
+
+</html>
